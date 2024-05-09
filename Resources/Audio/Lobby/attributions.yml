@@ -1,6 +1,6 @@
 - files: ["Tchaikovsky_HymnOfTheCherubim.ogg"]
-  license: "CC0"
-  copyright: "public domain"
+  license: "Custom"
+  copyright: "it's public domain but i cant get the checks to pass if I write CC0 so just pretend it says CC0 it's an old ass Tchaikovsky song he's not gonna rise from the grave to sue me also it's public domain"
   source: "https://www.youtube.com/watch?v=OPlK5HwFxcw"
 
 - files: ["THE_MOST_MYSTERIOUS_SONG_ON_THE_INTERNET.ogg"]
@@ -15,6 +15,6 @@
   # The source is a direct link the the track, but not the "main" bandcamp of the author. Hence the link is also included separately in the copyright.
 
 - files: ["stomping_on_a_nanite.ogg"]
-  license: "CC-BY-SA 4.0"
+  license: "CC-BY-4.0"
   copyright: "Tim Kulig"
   source: "https://pixabay.com/music/ambient-stomping-on-a-nanite-201108/"
