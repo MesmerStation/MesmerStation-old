@@ -1,0 +1,15 @@
+- type: entity
+  save: false
+  name: Urist McTall
+  parent: BaseMobHuman
+  id: MobHumanTall
+  components:
+  - type: PotentialPsionic #Nyano - Summary: makes potentially psionic. 
+
+- type: entity
+  save: false
+  name: Urist McShort
+  parent: BaseMobHuman
+  id: MobHumanShort
+  components:
+  - type: PotentialPsionic #Nyano - Summary: makes potentially psionic. 
