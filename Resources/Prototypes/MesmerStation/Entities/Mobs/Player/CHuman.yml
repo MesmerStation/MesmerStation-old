@@ -1,0 +1,7 @@
+- type: entity
+  save: false
+  name: Urist McMetal-Hands
+  parent: BaseMobCHuman
+  id: MobCHuman
+  components:
+    - type: PotentialPsionic 

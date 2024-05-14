@@ -8,15 +8,7 @@
     },
     "states": [
         {
-            "name": "average_eyes",
-            "directions": 4
-        },
-        {
-            "name": "tall_eyes",
-            "directions": 4
-        },
-        {
-            "name": "short_eyes",
+            "name": "eyes",
             "directions": 4
         }
     ]

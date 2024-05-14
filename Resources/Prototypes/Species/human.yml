@@ -66,7 +66,7 @@
   id: MobHumanoidEyes
   baseSprite:
     sprite: MesmerStation/Mobs/Customization/eyes.rsi
-    state: average_eyes
+    state: eyes
 
 - type: humanoidBaseSprite
   id: MobHumanoidAnyMarking
