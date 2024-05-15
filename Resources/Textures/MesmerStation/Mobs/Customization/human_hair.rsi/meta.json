@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "sprites by Leonardo_DaBepis",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "bob",
+      "directions": 4
+    },
+    {
+      "name": "phil",
+      "directions": 4
+    }
+  ]
+}

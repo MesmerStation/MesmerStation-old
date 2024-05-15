@@ -87,7 +87,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: Mobs/Customization/human_hair.rsi
+    - sprite: MesmerStation/Mobs/Customization/human_hair.rsi # MS custom sprite
       state: bob
 - type: marking
   id: HumanHairBob2
@@ -1144,14 +1144,14 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: Mobs/Customization/human_hair.rsi
-      state: spiky
+    - sprite: MesmerStation/Mobs/Customization/human_hair.rsi # MS custom sprite
+      state: phil #hehe
 - type: marking
   id: HumanHairSpiky2
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: Mobs/Customization/human_hair.rsi
+    - sprite: Mobs/Customization/human_hair.rsi 
       state: spiky2
 - type: marking
   id: HumanHairSwept
