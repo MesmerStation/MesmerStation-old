@@ -1,0 +1,73 @@
+- type: species
+  id: MutantHuman
+  name: bodytype-name-human3
+  roundStart: true
+  prototype: MobMHuman
+  sprites: MobMHumanSprites
+  markingLimits: MobMHumanMarkingLimits
+  dollPrototype: MobMHumanDummy
+  skinColoration: HumanToned
+
+- type: speciesBaseSprites
+  id: MobMHumanSprites
+  sprites:
+    Head: MobHumanHead
+    Hair: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
+    Snout: MobHumanoidAnyMarking
+    Chest: MobMHumanTorso
+    Eyes: MobHumanoidEyes
+    LHand: MobHumanLHand
+    RHand: MobHumanRHand
+    LArm: MobHumanLArm
+    RArm: MobHumanRArm
+    LFoot: MobHumanLFoot
+    RFoot: MobHumanRFoot
+    LLeg: MobHumanLLeg
+    RLeg: MobHumanRLeg
+
+- type: markingPoints
+  id: MobMHumanMarkingLimits
+  points:
+    Hair:
+      points: 1
+      required: false
+    FacialHair:
+      points: 1
+      required: false
+    Snout:
+      points: 1
+      required: false
+    Tail: 
+      points: 0
+      required: false
+    HeadTop: 
+      points: 2
+      required: false
+    Chest:
+      points: 2
+      required: false
+    Legs:
+      points: 2
+      required: false
+    Arms:
+      points: 2
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobMHumanTorso
+  baseSprite:
+    sprite: MesmerStation/Mobs/Species/Human/MutantHuman/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobMHumanTorsoMale
+  baseSprite:
+    sprite: MesmerStation/Mobs/Species/Human/MutantHuman/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobMHumanTorsoFemale
+  baseSprite:
+    sprite: MesmerStation/Mobs/Species/Human/MutantHuman/parts.rsi
+    state: torso_f
