@@ -3,9 +3,9 @@
   bodyPart: FacialHair
   markingCategory: FacialHair
   sprites:
-    - sprite: Mobs/Customization/human_facial_hair.rsi
+    - sprite: MesmerStation/Mobs/Customization/human_facial_hair.rsi  #MS custom sprite
       state: abe
-#- type: marking       # MesmerStation commenting out this one because I never liked it
+#- type: marking       # MesmerStation commenting out this one because I never liked it I don't know what it is I don't understand it can someone please explain why it's like that please
 #  id: HumanFacialHairBrokenman
 #  bodyPart: FacialHair
 #  markingCategory: FacialHair
@@ -17,14 +17,14 @@
   bodyPart: FacialHair
   markingCategory: FacialHair
   sprites:
-    - sprite: Mobs/Customization/human_facial_hair.rsi
+    - sprite: MesmerStation/Mobs/Customization/human_facial_hair.rsi  #MS custom sprite
       state: chin
 - type: marking
   id: HumanFacialHairDwarf
   bodyPart: FacialHair
   markingCategory: FacialHair
   sprites:
-    - sprite: Mobs/Customization/human_facial_hair.rsi
+    - sprite: MesmerStation/Mobs/Customization/human_facial_hair.rsi  #MS custom sprite
       state: dwarf
 - type: marking
   id: HumanFacialHairFullbeard
@@ -201,13 +201,13 @@
   sprites:
     - sprite: Mobs/Customization/human_facial_hair.rsi
       state: selleck
-- type: marking
-  id: HumanFacialHairChaplin
-  bodyPart: FacialHair
-  markingCategory: FacialHair
-  sprites:
-    - sprite: Mobs/Customization/human_facial_hair.rsi
-      state: chaplin
+#- type: marking                      Nope.
+#  id: HumanFacialHairChaplin
+#  bodyPart: FacialHair
+#  markingCategory: FacialHair
+#  sprites:
+#    - sprite: Mobs/Customization/human_facial_hair.rsi
+#      state: chaplin
 - type: marking
   id: HumanFacialHairVandyke
   bodyPart: FacialHair

@@ -6,14 +6,34 @@
     "x": 32,
     "y": 32
   },
-  "states": [
-    {
-      "name": "bob",
-      "directions": 4
-    },
-    {
-      "name": "phil",
-      "directions": 4
-    }
-  ]
+    "states": [
+        {
+            "name": "afro",
+            "directions": 4
+        },
+        {
+            "name": "afro2",
+            "directions": 4
+        },
+        {
+            "name": "bigafro",
+            "directions": 4
+        },
+        {
+            "name": "bedhead",
+            "directions": 4
+        },
+        {
+            "name": "bob",
+            "directions": 4
+        },
+        {
+            "name": "e",
+            "directions": 4
+        },
+        {
+            "name": "phil",
+            "directions": 4
+        }
+    ]
 }
