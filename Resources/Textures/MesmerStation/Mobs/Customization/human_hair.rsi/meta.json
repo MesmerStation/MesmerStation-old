@@ -28,6 +28,10 @@
             "directions": 4
         },
         {
+            "name": "combed",
+            "directions": 4
+        },
+        {
             "name": "e",
             "directions": 4
         },

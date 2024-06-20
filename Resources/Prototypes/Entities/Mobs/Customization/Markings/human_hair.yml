@@ -332,8 +332,8 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: Mobs/Customization/human_hair.rsi
-      state: classicmulder
+    - sprite: MesmerStation/Mobs/Customization/human_hair.rsi #MS original sprite
+      state: combed
 - type: marking
   id: HumanHairClassicWisp
   bodyPart: Hair
