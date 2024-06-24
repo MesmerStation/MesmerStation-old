@@ -1,0 +1,11 @@
+<Document>
+  # Humans
+
+  <Box>
+    <GuideEntityEmbed Entity="MobHumanDummy" Caption=""/>
+  </Box>
+
+  A standard human, the most common type of human in the Republic of Santia. 
+  They have no special mechanics or notable attributes.
+
+</Document>
