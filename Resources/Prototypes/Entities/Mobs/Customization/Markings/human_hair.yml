@@ -3,44 +3,44 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: Mobs/Customization/human_hair.rsi
+    - sprite: MesmerStation/Mobs/Customization/human_hair.rsi #MS original sprite
       state: afro
 - type: marking
   id: HumanHairAfro2
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: Mobs/Customization/human_hair.rsi
+    - sprite: MesmerStation/Mobs/Customization/human_hair.rsi #MS original sprite
       state: afro2
 - type: marking
   id: HumanHairBigafro
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: Mobs/Customization/human_hair.rsi
+    - sprite: MesmerStation/Mobs/Customization/human_hair.rsi #MS original sprite
       state: bigafro
-- type: marking
-  id: HumanHairAntenna
-  bodyPart: Hair
-  markingCategory: Hair
-  sprites:
-    - sprite: Mobs/Customization/human_hair.rsi
-      state: antenna
+#- type: marking          #MesmerStation - commenting this out until I can think of a good way to resprite this one
+#  id: HumanHairAntenna
+#  bodyPart: Hair
+#  markingCategory: Hair
+#  sprites:
+#    - sprite: Mobs/Customization/human_hair.rsi
+#      state: antenna
 - type: marking
   id: HumanHairBalding
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: Mobs/Customization/human_hair.rsi
+    - sprite: MesmerStation/Mobs/Customization/human_hair.rsi #MS original sprite
       state: e
 - type: marking
   id: HumanHairBedhead
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: Mobs/Customization/human_hair.rsi
+    - sprite: MesmerStation/Mobs/Customization/human_hair.rsi #MS original sprite
       state: bedhead
-- type: marking
+- type: marking  #TODO - resprite most of the rest of these hairstyles below, except for the ones that are cring
   id: HumanHairBedheadv2
   bodyPart: Hair
   markingCategory: Hair
@@ -87,7 +87,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: Mobs/Customization/human_hair.rsi
+    - sprite: MesmerStation/Mobs/Customization/human_hair.rsi # MS custom sprite
       state: bob
 - type: marking
   id: HumanHairBob2
@@ -332,7 +332,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: Mobs/Customization/human_hair.rsi
+    - sprite: MesmerStation/Mobs/Customization/human_hair.rsi #MS original sprite
       state: classicmulder
 - type: marking
   id: HumanHairClassicWisp
@@ -1144,14 +1144,14 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: Mobs/Customization/human_hair.rsi
-      state: spiky
+    - sprite: MesmerStation/Mobs/Customization/human_hair.rsi # MS custom sprite
+      state: phil #hehe
 - type: marking
   id: HumanHairSpiky2
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: Mobs/Customization/human_hair.rsi
+    - sprite: Mobs/Customization/human_hair.rsi 
       state: spiky2
 - type: marking
   id: HumanHairSwept

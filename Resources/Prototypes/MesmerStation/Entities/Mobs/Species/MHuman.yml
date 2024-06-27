@@ -1,0 +1,26 @@
+- type: entity
+  save: false
+  name: Urist McMutant
+  parent: BaseMobHuman
+  id: BaseMobMHuman
+  abstract: true
+  components:
+  - type: Armor
+    modifiers:
+      coefficients:
+        Radiation: 0.001
+  - type: Icon
+    sprite: MesmerStation/Mobs/Species/Human/MutantHuman/parts.rsi
+    state: full
+
+
+- type: entity
+  save: false
+  name: Urist McMutant
+  parent: MobHumanDummy
+  id: MobMHumanDummy
+  noSpawn: true
+  description: A dummy mutant meant to be used in character setup.
+  components:
+  - type: HumanoidAppearance
+    species: MutantHuman

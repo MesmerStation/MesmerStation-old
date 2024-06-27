@@ -1,0 +1,70 @@
+# default
+- type: marking
+  id: CHumanSpineDefault
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [CyborgHuman]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/CHuman_parts.rsi
+    state: default_torso
+
+- type: marking
+  id: CHumanLArmDefault
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [CyborgHuman]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/CHuman_parts.rsi
+    state: default_l_arm
+
+- type: marking
+  id: CHumanRArmDefault
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [CyborgHuman]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/CHuman_parts.rsi
+    state: default_r_arm
+
+- type: marking
+  id: CHumanLLegDefault
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [CyborgHuman]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/CHuman_parts.rsi
+    state: default_l_leg
+
+- type: marking
+  id: CHumanRLegDefault
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [CyborgHuman]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/CHuman_parts.rsi
+    state: default_r_leg

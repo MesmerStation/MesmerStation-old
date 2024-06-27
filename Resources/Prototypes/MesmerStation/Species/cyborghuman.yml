@@ -1,0 +1,128 @@
+- type: species
+  id: CyborgHuman
+  name: bodytype-name-human2
+  roundStart: true
+  prototype: MobCHuman
+  sprites: MobCHumanSprites
+  markingLimits: MobCHumanMarkingLimits
+  dollPrototype: MobCHumanDummy
+  skinColoration: HumanToned
+
+- type: speciesBaseSprites
+  id: MobCHumanSprites
+  sprites:
+    Head: MobHumanHead
+    Hair: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
+    Snout: MobHumanoidAnyMarking
+    Chest: MobCHumanTorso
+    Eyes: MobHumanoidEyes
+    LHand: MobCHumanLHand
+    RHand: MobCHumanRHand
+    LArm: MobCHumanLArm
+    RArm: MobCHumanRArm
+    LFoot: MobCHumanLFoot
+    RFoot: MobCHumanRFoot
+    LLeg: MobCHumanLLeg
+    RLeg: MobCHumanRLeg
+
+- type: markingPoints
+  id: MobCHumanMarkingLimits
+  points:
+    Hair:
+      points: 1
+      required: false
+    FacialHair:
+      points: 1
+      required: false
+    Snout:
+      points: 1
+      required: false
+    Tail: 
+      points: 0
+      required: false
+    HeadTop: 
+      points: 0
+      required: false
+    Chest:
+      points: 1
+      required: true
+      defaultMarkings: [ CHumanSpineDefault ]
+    Legs:
+      points: 2
+      required: true
+      defaultMarkings: [ CHumanLLegDefault , CHumanRLegDefault ]
+    Arms:
+      points: 2
+      required: true
+      defaultMarkings: [ CHumanLArmDefault , CHumanRArmDefault ]
+
+- type: humanoidBaseSprite
+  id: MobCHumanTorso
+  baseSprite:
+    sprite: MesmerStation/Mobs/Species/Human/CyborgHuman/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobCHumanTorsoMale
+  baseSprite:
+    sprite: MesmerStation/Mobs/Species/Human/CyborgHuman/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobCHumanTorsoFemale
+  baseSprite:
+    sprite: MesmerStation/Mobs/Species/Human/CyborgHuman/parts.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: MobCHumanLLeg
+  baseSprite:
+    sprite: MesmerStation/Mobs/Species/Human/CyborgHuman/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobCHumanLArm
+  baseSprite:
+    sprite: MesmerStation/Mobs/Species/Human/CyborgHuman/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobCHumanRLeg
+  baseSprite:
+    sprite: MesmerStation/Mobs/Species/Human/CyborgHuman/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobCHumanRArm
+  baseSprite:
+    sprite: MesmerStation/Mobs/Species/Human/CyborgHuman/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobCHumanRHand
+  markingsMatchSkin: false
+  baseSprite:
+    sprite: MesmerStation/Mobs/Species/Human/CyborgHuman/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobCHumanRFoot
+  markingsMatchSkin: false
+  baseSprite:
+    sprite: MesmerStation/Mobs/Species/Human/CyborgHuman/parts.rsi
+    state: r_foot
+
+- type: humanoidBaseSprite
+  id: MobCHumanLHand
+  markingsMatchSkin: false
+  baseSprite:
+    sprite: MesmerStation/Mobs/Species/Human/CyborgHuman/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobCHumanLFoot
+  markingsMatchSkin: false
+  baseSprite:
+    sprite: MesmerStation/Mobs/Species/Human/CyborgHuman/parts.rsi
+    state: l_foot

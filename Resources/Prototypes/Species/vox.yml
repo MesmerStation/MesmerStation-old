@@ -1,7 +1,7 @@
 - type: species
   id: Vox
   name: species-name-vox
-  roundStart: false # sad...
+  roundStart: false # sad...    #NOT!!! I DONT GIVE A FUCK MESMERSTATION DONT GIVE A FUCK
   prototype: MobVox
   sprites: MobVoxSprites
   markingLimits: MobVoxMarkingLimits

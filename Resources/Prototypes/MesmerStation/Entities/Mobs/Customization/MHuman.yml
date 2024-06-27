@@ -1,0 +1,181 @@
+# stripe
+
+- type: marking
+  id: MHumanTorsoStripe
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [MutantHuman]
+  followSkinColor: true
+  color: HumanToned
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/MHuman_markings.rsi
+    state: stripe_torso
+
+- type: marking
+  id: MHumanLArmStripe
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [MutantHuman]
+  followSkinColor: true
+  color: HumanToned
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/MHuman_markings.rsi
+    state: stripe_l_arm
+
+- type: marking
+  id: MHumanRAarmStripe
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [MutantHuman]
+  followSkinColor: true
+  color: HumanToned
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/MHuman_markings.rsi
+    state: stripe_r_arm
+
+- type: marking
+  id: MHumanLLegStripe
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [MutantHuman]
+  followSkinColor: true
+  color: HumanToned
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/MHuman_markings.rsi
+    state: stripe_l_leg
+
+- type: marking
+  id: MHumanRLegStripe
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [MutantHuman]
+  followSkinColor: true
+  color: HumanToned
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/MHuman_markings.rsi
+    state: stripe_r_leg
+
+- type: marking
+  id: MHumanHeadStripe
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [MutantHuman]
+  followSkinColor: true
+  color: HumanToned
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/MHuman_markings.rsi
+    state: stripe_head
+
+# point coloration
+
+- type: marking
+  id: MHumanHeadPoint
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [MutantHuman]
+  followSkinColor: true
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/MHuman_markings.rsi
+    state: point_head
+
+- type: marking
+  id: MHumanLArmPoint
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [MutantHuman]
+  followSkinColor: true
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/MHuman_markings.rsi
+    state: point_l_arm
+
+- type: marking
+  id: MHumanRAarmPoint
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [MutantHuman]
+  followSkinColor: true
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/MHuman_markings.rsi
+    state: point_r_arm
+
+- type: marking
+  id: MHumanLLegPoint
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [MutantHuman]
+  followSkinColor: true
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/MHuman_markings.rsi
+    state: point_l_leg
+
+- type: marking
+  id: MHumanRLegPoint
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [MutantHuman]
+  followSkinColor: true
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/MHuman_markings.rsi
+    state: point_r_leg
+
+# other
+
+- type: marking
+  id: MHumanHeadHalf
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [MutantHuman]
+  followSkinColor: true
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/MHuman_markings.rsi
+    state: half_head
+
+- type: marking
+  id: MHumanChestChevron
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [MutantHuman]
+  followSkinColor: true
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/MHuman_markings.rsi
+    state: chevron_torso
+
+- type: marking
+  id: MHumanLHand
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [MutantHuman]
+  followSkinColor: true
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/MHuman_markings.rsi
+    state: l_hand
+
+- type: marking
+  id: MHumanRHand
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [MutantHuman]
+  followSkinColor: true
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/MHuman_markings.rsi
+    state: r_hand
+
+- type: marking
+  id: MHumanLFoot
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [MutantHuman]
+  followSkinColor: true
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/MHuman_markings.rsi
+    state: l_foot
+
+- type: marking
+  id: MHumanRFoot
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [MutantHuman]
+  followSkinColor: true
+  sprites:
+  - sprite: MesmerStation/Mobs/Customization/MHuman_markings.rsi
+    state: r_foot
